@@ -3,7 +3,6 @@ Helper function
 
 ```php
 
-/*Maruf hasan's Helper*/
     function custom_fetch($var,$field){
         if ($var!=null) {
             return $var[0]->$field;
